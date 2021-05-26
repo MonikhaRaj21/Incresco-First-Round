@@ -5,7 +5,7 @@ class Filter extends Component{
     {
         return(
            <div className='filterArea'>
-               <div className='priceOrder'>
+               <div className='filterSection'>
                    <label className='filterText'>Price Order</label>
                    <select className='form-control' onChange={this.props.sortProducts}>
                        <option value=''>--</option>
@@ -13,7 +13,7 @@ class Filter extends Component{
                        <option value='highest'>Highest</option>
                    </select>
                </div>
-               <div className='categoryList'>
+               <div className='filterSection'>
                     <label className='filterText'>Category</label>
                     <select className='form-control' onChange={this.props.filterCategory}> 
                         <option value="">--</option>
@@ -22,7 +22,7 @@ class Filter extends Component{
                         ))}
                     </select>
                </div>
-               <div className='genderList'>
+               <div className='filterSection'>
                     <label className='filterText'>Gender</label>
                     <select className='form-control' onChange={this.props.filterGender}> 
                         <option value="">--</option>

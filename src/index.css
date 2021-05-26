@@ -11,14 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/*header Component*/
 .headerDiv{
     font-family:Arial, Helvetica, sans-serif;
     font-size:large;
-    color:#000;
-    text-align:center;
-    padding:10px 0px;
-    background-color: chocolate;
+    padding:10px 15px;
     margin-bottom: 15px;
+}
+.headerText{
+  text-align:center;
+  color:#1c633b;
+}
+.iconList{
+  display:flex;  
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navText li a{
+  color:#1c633b !important;
+}
+.navText li a.active{
+  background-color: #1c633b !important;
+  color:#fff !important;
+}
+.iconDiv{
+  text-align:right;
+}
+.iconList li{
+  margin-left:20px;
+  list-style-type:none;
 }
 .productListArray{
     padding: 10px;
@@ -35,27 +56,30 @@ code {
     height: 15rem;
     margin: auto;
 }
-.productName{
-    
-}
-.productPriceDiv{
-
-}
 .productPrice{
-
+  padding-right: 0px!important;
+  text-align: left;
+  font-weight: 500;
+  color: #1c633b;  
 }
-
+.btnDiv{
+  padding-left: 0px !important;
+  padding-right: 5px !important;
+}
+.addTocartBtn{
+  background-color: #1c633b !important;
+  border-color: #1c633b !important;
+}
 /*Filter Section*/
-
 .filterArea{
-
+  margin:15px;
 }
-.priceOrder{
-
+.filterSection{
+  margin-bottom:20px;
 }
-.categoryList{
-
+.filterText{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color:#1c633b;
 }
-.genderList{
-
-}
+  
